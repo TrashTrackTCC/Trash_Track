@@ -1,0 +1,56 @@
+{
+    "Reciclagem": {
+      "titulo": "Como o TrashTrack torna a reciclagem mais eficiente?",
+      "img1": "./src/assets/1.1.png",
+      "img2": "./src/assets/1.2.png",
+      "texto": [
+        "Em ambientes dedicados à reciclagem, a eficiência na triagem dos materiais é essencial para garantir um reaproveitamento eficaz e sustentável. O TrashTrack surge como um aliado indispensável nesse processo, oferecendo recursos tecnológicos que automatizam a identificação e o direcionamento correto dos resíduos descartados." ,
+        "Através de sensores e algoritmos inteligentes, o sistema reconhece o tipo de material depositado e assegura sua separação imediata, reduzindo erros humanos e acelerando o fluxo de trabalho. Essa precisão não só aumenta a produtividade das equipes, como também melhora significativamente a qualidade dos resíduos enviados para reaproveitamento, evitando contaminações que inviabilizariam o processo de reciclagem.", 
+        "Além disso, a compactação automática dos resíduos recicláveis contribui para a otimização do espaço disponível, permitindo o armazenamento de um maior volume de materiais em menor área. Com o controle de enchimento em tempo real, os responsáveis pela gestão do local são alertados quando os recipientes atingem sua capacidade máxima, possibilitando uma coleta programada, econômica e eficiente.", 
+        "Implementar o TrashTrack em centros de reciclagem é dar um passo à frente na profissionalização da gestão de resíduos. Trata-se de uma solução sustentável, prática e moderna, que fortalece a economia circular e eleva os padrões da reciclagem no Brasil e no mundo."
+      ]
+    },
+    "Escritórios": {
+      "titulo": "Transformando ambientes corporativos com sustentabilidade inteligente",
+      "img1": "./src/assets/escritorio1.png",
+      "img2": "./src/assets/escritorio2.png",
+      "texto": [
+        "Nos escritórios modernos, adotar práticas sustentáveis deixou de ser uma tendência e passou a ser uma responsabilidade. O TrashTrack oferece uma solução prática e eficiente para empresas que desejam tornar seus ambientes de trabalho mais ecológicos, ao mesmo tempo em que otimizam a gestão dos resíduos produzidos diariamente.",
+        "Com tecnologia de reconhecimento automático, o TrashTrack identifica e separa corretamente os tipos de resíduos reduzindo erros no descarte e garantindo que materiais recicláveis não sejam desperdiçados. Essa automação é essencial em locais com grande fluxo de pessoas, onde o volume de lixo gerado é constante e variado.", 
+        "Além de contribuir para a preservação do meio ambiente, a presença do TrashTrack nos escritórios reforça o compromisso da empresa com a responsabilidade socioambiental, promovendo uma cultura organizacional mais consciente e engajada. Ele também ajuda a manter os espaços mais organizados, já que a compactação dos resíduos evita o acúmulo e facilita a limpeza diária.",
+        "Com sensores que monitoram o nível de enchimento e emitem alertas quando a lixeira está cheia, o sistema também melhora a logística de coleta interna, otimizando o trabalho das equipes de manutenção e reduzindo custos operacionais.",
+        "Incorporar o TrashTrack aos escritórios é transformar o local de trabalho em um ambiente mais sustentável, inteligente e alinhado aos valores de uma nova geração de empresas preocupadas com o futuro do planeta."
+      ]  
+    },
+    "Lojas": {
+      "titulo": "Eficiência e consciência ambiental no seu ponto de venda",
+      "img1": "./src/assets/loja1.png",
+      "img2": "./src/assets/loja2.png",
+      "texto":[ "Em lojas e estabelecimentos comerciais, o descarte de resíduos é uma atividade constante, seja no atendimento ao cliente, no recebimento de mercadorias ou nas embalagens utilizadas no dia a dia. O TrashTrack surge como uma solução moderna para transformar esse desafio em uma oportunidade de sustentabilidade, organização e economia operacional.",
+        "Com um sistema automatizado de identificação de resíduos, o TrashTrack garante que materiais como papel, plástico, vidro e metal sejam descartados corretamente, sem a necessidade de separação manual. Isso reduz o risco de contaminação entre recicláveis, facilita o reaproveitamento dos materiais e elimina dúvidas comuns no momento do descarte.",
+        "A tecnologia integrada também oferece compactação automática, o que significa menos volume de resíduos ocupando espaço útil no ambiente da loja — um fator importante, especialmente em locais com áreas de descarte limitadas. Além disso, os sensores de enchimento avisam quando é o momento certo para a coleta, evitando o transbordamento de lixo e mantendo o ambiente sempre limpo e apresentável para clientes e colaboradores.",
+        "Ao adotar o TrashTrack, as lojas mostram ao público que se preocupam com a sustentabilidade, agregando valor à marca e incentivando práticas conscientes entre consumidores e funcionários. É uma escolha estratégica que melhora o dia a dia da operação e fortalece a imagem do negócio frente a um mercado cada vez mais atento às questões ambientais."
+      ]
+    },
+    "Hospitais": {
+      "titulo": "Cuidando do ambiente com a mesma atenção que cuidamos da saúde",
+      "img1": "./src/assets/hospital1.png",
+      "img2": "./src/assets/hospital2.png",
+      "texto":[ "Em hospitais e unidades de saúde, o gerenciamento de resíduos exige rigor, organização e responsabilidade. O TrashTrack se torna um aliado estratégico nesse contexto, oferecendo uma solução automatizada que contribui para a separação correta de materiais recicláveis e otimiza a gestão dos resíduos comuns não contaminantes.",
+        "Através de sensores inteligentes, o sistema identifica automaticamente o tipo de material descartado — como papel, plástico, vidro e metal — garantindo que esses resíduos sigam o destino correto sem a necessidade de triagem manual, o que reduz riscos e acelera processos. A compactação dos materiais evita o acúmulo desnecessário e mantém os ambientes mais limpos e seguros, algo essencial em instituições que lidam diretamente com a saúde.",
+        "Além disso, os sensores de enchimento permitem o monitoramento em tempo real dos recipientes, alertando quando é necessário o esvaziamento. Isso torna a logística de coleta mais eficiente, evitando transbordamentos e reduzindo o número de intervenções das equipes de limpeza.",
+        "Com o TrashTrack, hospitais podem alinhar suas práticas de descarte às normas ambientais, melhorar a organização interna e demonstrar um compromisso claro com a sustentabilidade, sem comprometer a segurança nem a eficiência do dia a dia hospitalar."
+      ]
+    },
+    "Varejo": {
+      "titulo": "Descarte inteligente para o ritmo do varejo",
+      "img1": "./src/assets/varejo1.png",
+      "img2": "./src/assets/varejo2.png",
+      "texto": [ "O setor varejista movimenta grandes volumes de produtos e, consequentemente, gera uma quantidade significativa de resíduos diariamente. Em meio a essa dinâmica intensa, o TrashTrack oferece uma solução tecnológica que contribui para a eficiência operacional e o compromisso ambiental de marcas que atuam diretamente com o público.",
+        "Com a identificação automática de materiais descartados, o TrashTrack garante que plásticos, papéis, vidros e metais sejam corretamente direcionados, sem a necessidade de separação manual. Isso não só evita o desperdício de recicláveis, como também facilita a rotina das equipes e melhora o aspecto visual das áreas comuns do estabelecimento.",
+        "A compactação dos resíduos ajuda a reduzir o volume armazenado, liberando espaço e diminuindo a frequência de coletas. Além disso, o sistema de sensores monitora o nível de enchimento das lixeiras em tempo real, enviando alertas no momento ideal para o descarte — evitando transbordamentos e promovendo uma experiência mais agradável para os consumidores.",
+        "Ao implementar o TrashTrack, empresas do varejo demonstram responsabilidade socioambiental, otimizam sua operação e elevam a imagem da marca perante um público cada vez mais atento às práticas sustentáveis."
+      ]
+    }
+  }
+  
