@@ -98,7 +98,12 @@ export function ComoFunciona() {
                     <H1>Tem alguma dúvida?</H1>
                     <H2>Estamos prontos para te ajudar! Envie sua mensagem e retornaremos o contato com todas as informações o mais rápido possível.</H2>
                     
-                    <Link to="/home"><Button_como text="Entre em contato"/></Link>
+                    
+                    <Link to="/#contato" className="cursor-pointer">
+                        <Button_como text="Entre em contato" />
+                    </Link>
+
+                    
                 </section>
             </div>
         </div> 

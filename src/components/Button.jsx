@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { H1, H2, H2_btn, H2_titulo, P } from './Texto'
 
 export default function Button({ text }) {
@@ -44,7 +45,7 @@ export function Button_decoration({text}) {
 export function Button_como({text}) {
   return (
     <button className='bg-white hover:bg-cinza text-verdenormal rounded-[55px] md:w-[262px] md:h-[70px] w-[123px] h-[34px] '>
-      <H2_btn>{text}</H2_btn>
+        <H2_btn>{text}</H2_btn>
     </button>
   )
 }
@@ -52,7 +53,7 @@ export function Button_como({text}) {
 export function Button_materiais({text}) {
   return (
     <button className='bg-verdemusgo dark:bg-darkverdemusgo dark:hover:bg-[#003F00] hover:bg-[#73963A] text-white rounded-[55px] md:w-[181px] w-[96px] md:h-[58px] h-[41px] '>
-      <H2_btn>{text}</H2_btn>
+        <H2_btn>{text}</H2_btn>
     </button>
   )
 } 
