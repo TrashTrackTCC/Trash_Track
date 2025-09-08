@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Header from "../components/Header"
 import { H2_btn, H2_titulo, P } from '../components/Texto'
 import { Button_paraquem } from "../components/Button"
-import data from "../data/paraquem.json"
+import data from "../data/paraquem"
 
 export function ParaQuemConteudo() {
     const [selecao, setSelecao] = useState("Reciclagem")
@@ -33,12 +33,12 @@ export function ParaQuemConteudo() {
                 <div className="sm:px-[15%] flex flex-col lg:flex-row gap-10 mt-5 ">
 
                     <div className="flex flex-col gap-3 w-full lg:w-1/2 ">
-                        <img src={conteudo.img1} alt="Imagem 1" />
-                        <img src={conteudo.img2} alt="Imagem 2" />
+                        <img src={data.reciclagem.img1} alt="Imagem 1" />
+                        <img src={data.reciclagem.img2} alt="Imagem 2" />
                     </div>
 
                     <div className="w-full flex flex-col dark:text-white px-4 ">
-                        <H2_titulo>{conteudo.titulo}</H2_titulo>
+                        <H2_titulo>{data.conteudo.titulo}</H2_titulo>
                         <section className='bg-verdemusgo h-1 rounded-full mt-2 mb-4'></section>
                         <P>{conteudo.texto.map((paragrafo, index) => (
                             <p key={index}>{paragrafo}</p>

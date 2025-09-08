@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import { Button_nav, Button_jogar } from "../components/Button"
 import { H1, H2 } from '../components/Texto'
+import jogo from "./src/assets/jogo.png"
 
 export function Jogo() {
     return(
@@ -20,7 +21,7 @@ export function Jogo() {
                 </div>
 
                 <div className="relative">
-                   <img src="./src/assets/jogo.png" alt="Jogo RecycleX"  /> 
+                   <img src={jogo} alt="Jogo RecycleX"  /> 
                    <Button_jogar text="Jogar"/>
                 </div>
                 

@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom'
 import Header from "../components/Header"
 import { H1, H2, H2_btn } from '../components/Texto'
 import { Button_materiais } from "../components/Button"
+import material from "./src/assets/material.png"
+import iconeEstrela from "./src/assets/iconeestrela.png"
+import lixeira from "./src/assets/lixeira.png"
 
 export function Materiais() {
     return(
@@ -18,7 +21,7 @@ export function Materiais() {
                     <div className="flex justify-center md:gap-10 gap-5 flex-wrap">
 
                          <div className="bg-white dark:bg-darkpreto  rounded-[10px] border dark:border-white border-black-30 w-[352px] md:h-[437px] p-6 flex flex-col items-center pt-10">
-                            <img src="./src/assets/material.png" alt="Lixeira Plástica" className="w-32 mb-4 mx-auto" />
+                            <img src={material} alt="Lixeira Plástica" className="w-32 mb-4 mx-auto" />
 
                             <div className="flex justify-between items-center w-full mb-1 mt-2">
                                 <div className="flex flex-col text-left">
@@ -26,7 +29,7 @@ export function Materiais() {
                                     <H2>R$ 51,20</H2>
                                 </div>
                                 <div className="flex items-center gap-1 mb-6">
-                                    <img src="./src/assets/iconeestrela.png" alt="Ícone Estrela" className="h-[15px] md:h-[30px]" />
+                                    <img src={iconeEstrela} alt="Ícone Estrela" className="h-[15px] md:h-[30px]" />
                                     <H2>4,9</H2>
                                 </div>
                             </div>
@@ -36,7 +39,7 @@ export function Materiais() {
                             </div>
                         </div>
                         <div className="bg-white dark:bg-darkpreto rounded-[10px] border dark:border-white border-black-30 w-[352px] md:h-[437px] p-6 flex flex-col items-center pt-10">
-                            <img src="./src/assets/material.png" alt="Lixeira Plástica" className="w-32 mb-4 mx-auto" />
+                            <img src={material} alt="Lixeira Plástica" className="w-32 mb-4 mx-auto" />
 
                             <div className="flex justify-between items-center w-full mb-1 mt-2">
                                 <div className="flex flex-col text-left">
@@ -44,7 +47,7 @@ export function Materiais() {
                                     <H2>R$ 51,20</H2>
                                 </div>
                                 <div className="flex items-center gap-1 mb-6">
-                                    <img src="./src/assets/iconeestrela.png" alt="Ícone Estrela" className="h-[15px] md:h-[30px]" />
+                                    <img src={iconeEstrela} alt="Ícone Estrela" className="h-[15px] md:h-[30px]" />
                                     <H2>4,9</H2>
                                 </div>
                             </div>
@@ -54,7 +57,7 @@ export function Materiais() {
                             </div>
                         </div>
                         <div className="bg-white dark:bg-darkpreto rounded-[10px] border dark:border-white border-black-30 w-[352px] md:h-[437px] p-6 flex flex-col items-center pt-10">
-                            <img src="./src/assets/material.png" alt="Lixeira Plástica" className="w-32 mb-4 mx-auto" />
+                            <img src={material} alt="Lixeira Plástica" className="w-32 mb-4 mx-auto" />
 
                             <div className="flex justify-between items-center w-full mb-1 mt-2">
                                 <div className="flex flex-col text-left">
@@ -62,7 +65,7 @@ export function Materiais() {
                                     <H2>R$ 51,20</H2>
                                 </div>
                                 <div className="flex items-center gap-1 mb-6">
-                                    <img src="./src/assets/iconeestrela.png" alt="Ícone Estrela" className="h-[15px] md:h-[30px]" />
+                                    <img src={iconeEstrela} alt="Ícone Estrela" className="h-[15px] md:h-[30px]" />
                                     <H2>4,9</H2>
                                 </div>
                             </div>
@@ -77,7 +80,7 @@ export function Materiais() {
                         <H2_btn>Valor Total:</H2_btn> 
                         <H2>R$1000</H2>
                     </div>
-                    <img src="./src/assets/lixeira.png" alt="Imagem da Lixeira Automatizada" className="absolute md:right-75 right-1.5 md:bottom-20 -bottom-157 w-[100px] sm:w-[120px]" />
+                    <img src={lixeira} alt="Imagem da Lixeira Automatizada" className="absolute md:right-75 right-1.5 md:bottom-20 -bottom-157 w-[100px] sm:w-[120px]" />
                 </div>
             </div>
         </div> 

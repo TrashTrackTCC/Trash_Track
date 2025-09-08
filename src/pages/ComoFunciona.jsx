@@ -3,6 +3,14 @@ import Header from "../components/Header"
 import { Button_nav, Button_como } from "../components/Button"
 import { H1, H2, H2_btn, H2_titulo, P } from '../components/Texto'
 
+import lixeira from "./src/assets/lixeira.png"
+import identificacao from "./src/assets/identificacao.png"
+import identificacaodark from "./src/assets/identificacaodark.png"
+import classificacao from "./src/assets/classificacao.png"
+import classificacaodark from "./src/assets/classificacaodark.png"
+import monitoramento from "./src/assets/monitoramento.png"
+import monitoramentodark from "./src/assets/monitoramentodark.png"
+
 export function ComoFunciona() {
     return(
         <div className='dark:bg-darkpreto dark:text-white'>
@@ -23,7 +31,7 @@ export function ComoFunciona() {
                         </section>
                     </div>
                     <div>
-                        <img src="./src/assets/lixeira.png" alt="Imagem da Lixeira Automatizada" className="w-[126px] md:w-[330px] -mb-15 md:mt-13" />
+                        <img src={lixeira} alt="Imagem da Lixeira Automatizada" className="w-[126px] md:w-[330px] -mb-15 md:mt-13" />
                     </div>
                 </section>
             </div>
@@ -31,21 +39,21 @@ export function ComoFunciona() {
             <div className="flex justify-center mt-14 mb-10">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:w-[1227px] text-center">
                     <section className="flex flex-col items-center">
-                        <img src="./src/assets/identificacao.png" alt="Identificação Inteligente" className="h-16 mb-4 dark:hidden" />
-                        <img src="./src/assets/identificacaodark.png" alt="Identificação Inteligente" className="h-16 mb-4 hidden dark:block" />
+                        <img src={identificacao} alt="Identificação Inteligente" className="h-16 mb-4 dark:hidden" />
+                        <img src={identificacaodark} alt="Identificação Inteligente" className="h-16 mb-4 hidden dark:block" />
                         <H2_btn>Identificação Inteligente de Resíduos</H2_btn>
                         <P>O TrashTrack utiliza sensores e tecnologia avançada para reconhecer automaticamente o tipo de material descartado, garantindo uma separação precisa e eficiente dos resíduos.</P>
                     </section>
                     <section className="flex flex-col items-center">
-                        <img src="./src/assets/classificacao.png" alt="Classificação Automática" className="h-16 mb-4 dark:hidden" />
-                        <img src="./src/assets/classificacaodark.png" alt="Classificação Automática" className="h-16 mb-4 hidden dark:block" />
+                        <img src={classificacao} alt="Classificação Automática" className="h-16 mb-4 dark:hidden" />
+                        <img src={classificacaodark} alt="Classificação Automática" className="h-16 mb-4 hidden dark:block" />
                         <H2_btn>Classificação Automática</H2_btn>
                         <P>Após a identificação, o lixo é direcionado para o compartimento correto de maneira totalmente automatizada, tornando o processo de reciclagem mais ágil.</P>
                     </section>
                     
                     <section className="flex flex-col items-center">
-                        <img src="./src/assets/monitoramento.png" alt="Monitoramento Inteligente" className="h-16 mb-4 dark:hidden" />
-                        <img src="./src/assets/monitoramentodark.png" alt="Monitoramento Inteligente" className="h-16 mb-4 hidden dark:block" />
+                        <img src={monitoramento} alt="Monitoramento Inteligente" className="h-16 mb-4 dark:hidden" />
+                        <img src={monitoramentodark} alt="Monitoramento Inteligente" className="h-16 mb-4 hidden dark:block" />
                         <H2_btn>Monitoramento Inteligente</H2_btn>
                         <P>Sensores de nível detectam quando a lixeira está cheia e notificam automaticamente via LED e aplicativo.</P>
                     </section>

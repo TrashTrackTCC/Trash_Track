@@ -3,6 +3,7 @@ import { Button_home } from "../components/Button"
 import { H1, H2_btn, P } from '../components/Texto'
 import Contato from "../components/Contato"
 import { Link } from "react-router-dom"
+import home from "./src/assets/home.png"
 
 export function Home() {
     return (
@@ -13,7 +14,7 @@ export function Home() {
             
             <div className="h-[52px] md:h-[120px]" />
             <div className="bg-white dark:text-white text-black">
-                <img src="./src/assets/home.png" alt="Imagem principal" className="w-full h-[250px] md:h-[464px] object-cover "/>
+                <img src={home} alt="Imagem principal" className="w-full h-[250px] md:h-[464px] object-cover "/>
 
                 <div className="md:h-90 bg-verdeclaro dark:bg-darkcinza p-10 space-y-4">
                     <section className="text-verdemusgo"><H2_btn >LIXEIRA INTELIGENTE</H2_btn></section>

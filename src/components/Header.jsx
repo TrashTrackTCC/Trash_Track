@@ -5,6 +5,9 @@ import iconemenu from "../assets/iconemenu.png"
 import { H2 } from '../components/Texto'
 import { useTema } from "../context/ThemeContext"
 
+import modoclaro from "../src/assets/modoclaro.png"
+import modoescuro from  "../src/assets/modoescuro.png"
+
 export default function Header() {
   const [menuAberto, setMenuAberto] = useState(false)
   const { tema, alterarTema } = useTema()
@@ -25,7 +28,7 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-              <img src={tema === "light" ? "../src/assets/modoclaro.png" : "../src/assets/modoescuro.png"} alt="Alterar tema" onClick={alterarTema} className="h-6 cursor-pointer"/>
+              <img src={tema === "light" ? {modoclaro} : {modoescuro}} alt="Alterar tema" onClick={alterarTema} className="h-6 cursor-pointer"/>
         </div>
 
       </div>
@@ -53,7 +56,7 @@ export default function Header() {
         </nav>
 
         <div className="flex justify-center items-center mt-3 mb-3">
-              <img src={tema === "light" ? "../src/assets/modoclaro.png" : "../src/assets/modoescuro.png"} alt="Alterar tema" onClick={alterarTema} className="h-6 cursor-pointer"/>
+              <img src={tema === "light" ? {modoclaro} : {modoescuro}} alt="Alterar tema" onClick={alterarTema} className="h-6 cursor-pointer"/>
         </div>
       </div>
       )}

@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import Contato from "../components/Contato"
 import { H1, H2, H2_titulo } from '../components/Texto'
+import material from "../assets/material.png"
 
 export function VerMais() {
     return(
@@ -11,7 +12,7 @@ export function VerMais() {
             <div className="h-[52px] md:h-[120px]" />
 
             <div className="flex flex-col md:flex-row md:gap-50 md:items-start px-6 max-w-[1227px] justify-center mx-auto md:mt-25 mt-10 mb-6 md:mb-10">
-                <img src="./src/assets/material.png" alt="Material Ultilizado" className="h-[471px]"/>
+                <img src={material} alt="Material Ultilizado" className="h-[471px]"/>
                 <section className="flex flex-col justify-center gap-3 mt-10 dark:bg-darkcinza bg-cinza rounded-[10px] p-10">
                     <H1>Placa Uno R3 sem Cabo USB</H1>
                     <H2_titulo>R$ 53,90</H2_titulo>

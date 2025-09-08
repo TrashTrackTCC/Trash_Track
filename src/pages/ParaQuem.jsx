@@ -3,6 +3,15 @@ import Header from "../components/Header"
 import { H2_btn } from '../components/Texto'
 import { Button_paraquem, Button_decoration } from "../components/Button"
 
+import reciclagem from "./src/assets/reciclagem.png"
+import escritorio from "./src/assets/escritorio.png"
+import loja from "./src/assets/loja.png"
+import escola from "./src/assets/escola.png"
+import hospital from "./src/assets/hospital.png"
+import varejo from "./src/assets/varejo.png"
+import aeroporto from "./src/assets/aeroporto.png"
+import posto from "./src/assets/posto.png"
+
 export function ParaQuem() {
     return(
         <div className='dark:bg-darkpreto'>
@@ -28,35 +37,35 @@ export function ParaQuem() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-4 gap-x-15 gap-y-5 w-fit mx-auto mt-7 pb-7 ">
                     <section className="relative">
-                        <img src="./src/assets/reciclagem.png" alt="Imagem Reciclagem" />
+                        <img src={reciclagem} alt="Imagem Reciclagem" />
                         <Button_decoration text="Reciclagem"/>
                     </section>
                     <section className="relative">
-                        <img src="./src/assets/escritorio.png" alt="Imagem Escritórios" />
+                        <img src={escritorio} alt="Imagem Escritórios" />
                         <Button_decoration text="Escritórios"/>
                     </section>
                     <section className="relative">
-                        <img src="./src/assets/loja.png" alt="Imagem Lojas" />
+                        <img src={loja} alt="Imagem Lojas" />
                         <Button_decoration text="Lojas"/>
                     </section>
                     <section className="relative">
-                        <img src="./src/assets/escola.png" alt="Imagem Escolas" />
+                        <img src={escola} alt="Imagem Escolas" />
                         <Button_decoration text="Escolas"/>
                     </section>
                     <section className="relative">
-                        <img src="./src/assets/hospital.png" alt="Imagem Hospitais" />
+                        <img src={hospital} alt="Imagem Hospitais" />
                         <Button_decoration text="Hospitais"/>
                     </section>
                     <section className="relative">
-                        <img src="./src/assets/varejo.png" alt="Imagem Varejo" />                    
+                        <img src={varejo} alt="Imagem Varejo" />                    
                         <Button_decoration text="Varejo"/>
                     </section>
                     <section className="relative">
-                        <img src="./src/assets/aeroporto.png" alt="Imagem Aeroporto" />
+                        <img src={aeroporto} alt="Imagem Aeroporto" />
                         <Button_decoration text="Aeroporto"/>
                     </section>
                     <section className="relative">
-                        <img src="./src/assets/posto.png" alt="Imagem Posto de gasolina" />
+                        <img src={posto} alt="Imagem Posto de gasolina" />
                         <Button_decoration text="Posto de gasolina"/>
                     </section>
                     
