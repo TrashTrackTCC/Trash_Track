@@ -3,14 +3,14 @@ import Header from "../components/Header"
 import { H2_btn } from '../components/Texto'
 import { Button_paraquem, Button_decoration } from "../components/Button"
 
-import reciclagem from "./src/assets/reciclagem.png"
-import escritorio from "./src/assets/escritorio.png"
-import loja from "./src/assets/loja.png"
-import escola from "./src/assets/escola.png"
-import hospital from "./src/assets/hospital.png"
-import varejo from "./src/assets/varejo.png"
-import aeroporto from "./src/assets/aeroporto.png"
-import posto from "./src/assets/posto.png"
+import reciclagem from "../assets/reciclagem.png"
+import escritorio from "../assets/escritorio.png"
+import loja from "../assets/loja.png"
+import escola from "../assets/escola.png"
+import hospital from "../assets/hospital.png"
+import varejo from "../assets/varejo.png"
+import aeroporto from "../assets/aeroporto.png"
+import posto from "../assets/posto.png"
 
 export function ParaQuem() {
     return(

@@ -3,13 +3,13 @@ import Header from "../components/Header"
 import { Button_nav, Button_como } from "../components/Button"
 import { H1, H2, H2_btn, H2_titulo, P } from '../components/Texto'
 
-import lixeira from "./src/assets/lixeira.png"
-import identificacao from "./src/assets/identificacao.png"
-import identificacaodark from "./src/assets/identificacaodark.png"
-import classificacao from "./src/assets/classificacao.png"
-import classificacaodark from "./src/assets/classificacaodark.png"
-import monitoramento from "./src/assets/monitoramento.png"
-import monitoramentodark from "./src/assets/monitoramentodark.png"
+import lixeira from "../assets/lixeira.png"
+import identificacao from "../assets/identificacao.png"
+import identificacaodark from "../assets/identificacaodark.png"
+import classificacao from "../assets/classificacao.png"
+import classificacaodark from "../assets/classificacaodark.png"
+import monitoramento from "../assets/monitoramento.png"
+import monitoramentodark from "../assets/monitoramentodark.png"
 
 export function ComoFunciona() {
     return(

@@ -18,11 +18,11 @@ export function VerMais() {
                     <H2_titulo>R$ 53,90</H2_titulo>
                 </section>
             </div>
-            <div className="">
-                <section className="bg-verdenormal md:w-[182px] w-[112px] md:h-[81px] h-[53px] rounded-[10px] text-white justify-center items-center flex ">
+            <div>
+                <button onClick={() => { document.getElementById("descricao")?.scrollIntoView({ behavior: "smooth" })}} className="bg-verdenormal md:w-[182px] w-[112px] md:h-[81px] h-[53px] rounded-[10px] text-white justify-center items-center flex cursor-pointer">
                     <H2>Descrição</H2>
-                </section>
-                <section className="bg-cinza dark:bg-darkcinza w-full px-7 md:px-15 p-10">
+                </button>
+                <section id="descricao" className="bg-cinza dark:bg-darkcinza w-full px-7 md:px-15 p-10">
                     <H2>Precisando testar o conceito de uma placa UNO R3 baseada nas placas Arduino em seu projeto? Para um primeiro protótipo este produto cai como uma luva. Por ser um produto compatível, é ótimo para os primeiros protótipos. Posteriormente, para um produto final, é aconselhável utilizar uma BlackBoard UNO R3, que é fabricada no Brasil, possui a qualidade dos produtos da RoboCore e 12 meses de garantia (a placa desta página possui 3 meses de garantia).<br/>
                     <br/>
                     Nesta placa, você encontrará as principais funcionalidades das placas Arduino, incluindo 14 pinos digitais de entrada ou saída e 6 entradas analógicas.<br/>

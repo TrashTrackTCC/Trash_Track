@@ -3,7 +3,7 @@ import { Button_home } from "../components/Button"
 import { H1, H2_btn, P } from '../components/Texto'
 import Contato from "../components/Contato"
 import { Link } from "react-router-dom"
-import home from "./src/assets/home.png"
+import home from "../assets/home.png"
 
 export function Home() {
     return (

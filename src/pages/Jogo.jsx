@@ -1,7 +1,7 @@
 import Header from "../components/Header"
 import { Button_nav, Button_jogar } from "../components/Button"
 import { H1, H2 } from '../components/Texto'
-import jogo from "./src/assets/jogo.png"
+import jogo from "../assets/jogo.png"
 
 export function Jogo() {
     return(

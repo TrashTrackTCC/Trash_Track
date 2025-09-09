@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom'
 import Header from "../components/Header"
 import { H1, H2, H2_btn } from '../components/Texto'
 import { Button_materiais } from "../components/Button"
-import material from "./src/assets/material.png"
-import iconeEstrela from "./src/assets/iconeestrela.png"
-import lixeira from "./src/assets/lixeira.png"
+import material from "../assets/material.png"
+import iconeEstrela from "../assets/iconeestrela.png"
+import lixeira from "../assets/lixeira.png"
 
 export function Materiais() {
     return(

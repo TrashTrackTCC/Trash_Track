@@ -2,10 +2,10 @@ import Header from "../components/Header"
 import Contato from "../components/Contato"
 import { H1, H2, H2_btn, P } from '../components/Texto'
 
-import emerson from "./src/assets/emerson.png";
-import joao from "./src/assets/joao.png";
-import julio from "./src/assets/julio.png";
-import rebecca from "./src/assets/rebecca.png";
+import emerson from "../assets/emerson.png"
+import joao from "../assets/joao.png"
+import julio from "../assets/julio.png"
+import rebecca from "../assets/rebecca.png"
 
 
 export function QuemSomos() {
@@ -28,7 +28,7 @@ export function QuemSomos() {
                             
                         <section className="mt-3 md:mt-10 px-10">
                             <H2_btn>Hardware e programação</H2_btn>
-                            <P><link rel="stylesheet" href="https://www.instagram.com/froid_ss/?utm_source=ig_web_button_share_sheet" className=" hover:underline cursor-pointer"/>@froid_ss</P>
+                            <P><a rel="stylesheet" href="https://www.instagram.com/froid_ss/?utm_source=ig_web_button_share_sheet" className=" hover:underline cursor-pointer" >@froid_ss  </a></P>
                         </section> 
                     </section>    
 
@@ -38,7 +38,7 @@ export function QuemSomos() {
                             
                         <section className="mt-3 md:mt-10 px-10">
                             <H2_btn>Design visual e identidade visual</H2_btn>
-                            <P><link rel="stylesheet" href="https://www.instagram.com/_cdmvitor?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className=" hover:underline cursor-pointer"/>@_cdmvitor</P>
+                            <P><a rel="stylesheet" href="https://www.instagram.com/_cdmvitor?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className=" hover:underline cursor-pointer">@_cdmvitor</a></P>
                         </section>    
                     </section>
                     <section className="bg-verdinho dark:bg-darkverdinho w-[340px] md:h-[541px] rounded-[10px] flex flex-col items-center justify-center p-3">
@@ -47,7 +47,7 @@ export function QuemSomos() {
                         
                         <section className="mt-3 md:mt-10 px-10">
                             <H2_btn>Criação do game e desenvolvimento do site</H2_btn>
-                            <P><link rel="stylesheet" href="https://www.instagram.com/julio.cesrr_/?utm_source=ig_web_button_share_sheet" className=" hover:underline cursor-pointer" />@julio.cesrr_</P>
+                            <P><a rel="stylesheet" href="https://www.instagram.com/julio.cesrr_/?utm_source=ig_web_button_share_sheet" className=" hover:underline cursor-pointer" >@julio.cesrr_ </a></P>
                         </section>    
                     </section>
                     <section className="bg-verdinho dark:bg-darkverdinho w-[340px] md:h-[541px] rounded-[10px] flex flex-col items-center justify-center p-3">
@@ -56,7 +56,7 @@ export function QuemSomos() {
                         
                         <section className="mt-3 md:mt-10 px-10">
                             <H2_btn>Desenvolvimento do site e programação</H2_btn>
-                            <P><link rel="stylesheet" href="https://www.instagram.com/rebecca_anjoss/" className=" hover:underline cursor-pointer"/>@rebecca_anjoss</P>
+                            <P><a rel="stylesheet" href="https://www.instagram.com/rebecca_anjoss?igsh=d3NkOWVidnE5NWZ3" className=" hover:underline cursor-pointer">@rebecca_anjoss </a></P>
                         </section>    
                     </section>
                 </div>               

@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from "../assets/logo.png"
-import iconemenu from "../assets/iconemenu.png"
 import { H2 } from '../components/Texto'
 import { useTema } from "../context/ThemeContext"
 
-import modoclaro from "../src/assets/modoclaro.png"
-import modoescuro from  "../src/assets/modoescuro.png"
+import modoclaro from "../assets/modoclaro.png"
+import modoescuro from  "../assets/modoescuro.png"
+import iconemenu from "../assets/iconemenu.png"
+import darkiconemenu from "../assets/darkiconemenu.png"
 
 export default function Header() {
   const [menuAberto, setMenuAberto] = useState(false)
@@ -28,14 +29,14 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-              <img src={tema === "light" ? {modoclaro} : {modoescuro}} alt="Alterar tema" onClick={alterarTema} className="h-6 cursor-pointer"/>
+              <img src={tema === "light" ? modoclaro : modoescuro} alt="Alterar tema" onClick={alterarTema} className="h-6 cursor-pointer"/>
         </div>
 
       </div>
 
       <button className="md:hidden z-50" onClick={() => setMenuAberto(!menuAberto)}>
         <img src={iconemenu} alt="Menu" className="h-3.5 w-full dark:hidden" />
-        <img src="./src/assets/darkiconemenu.png" alt="Menu" className="h-3.5 w-full hidden dark:block" />
+        <img src={darkiconemenu} alt="Menu" className="h-3.5 w-full hidden dark:block" />
       </button>
 
       {menuAberto && (
@@ -56,7 +57,7 @@ export default function Header() {
         </nav>
 
         <div className="flex justify-center items-center mt-3 mb-3">
-              <img src={tema === "light" ? {modoclaro} : {modoescuro}} alt="Alterar tema" onClick={alterarTema} className="h-6 cursor-pointer"/>
+              <img src={tema === "light" ? modoclaro : modoescuro} alt="Alterar tema" onClick={alterarTema} className="h-6 cursor-pointer"/>
         </div>
       </div>
       )}
