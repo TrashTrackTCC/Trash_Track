@@ -15,27 +15,27 @@ import posto from "../assets/posto.png"
 export function ParaQuem() {
     return(
         <div className='dark:bg-darkpreto'>
-            <div>
-                <Header/>
-            </div>
+            <Header />
             <div className="h-[52px] md:h-[120px]" />
             
-            <div >
-                <section className="text-verdemusgo px-4 md:px-[15%] mt-10 mb-2">
+            <div>
+                {/* Título */}
+                <section className="text-verdemusgo px-10 md:px-[15%] mt-10 mb-2">
                     <H2_btn>Para quem?</H2_btn>
                 </section>
                 
-                <div className="flex justify-center gap-3 overflow-x-auto p-2">
-                    <Link to="/para-quem" className='pl-52 md:pl-0'><Button_paraquem text="Todos" /></Link>
+                {/* Botões de seleção */}
+                <div className="flex flex-nowrap sm:flex-wrap justify-start sm:justify-center sm:gap-0.5 gap-1 overflow-x-auto sm:overflow-visible px-10 md:px-[15%] py-0">
+                    <Link to="/para-quem" className=''><Button_paraquem text="Todos" /></Link>
                     <Link to="/para-quem-conteudo"><Button_paraquem text="Reciclagem" /></Link>
-                    
                     <Button_paraquem text="Escritórios" />
                     <Button_paraquem text="Lojas" />
                     <Button_paraquem text="Hospitais" />  
                     <Button_paraquem text="Varejo" />
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-4 gap-x-15 gap-y-5 w-fit mx-auto mt-7 pb-7 ">
+                {/* Grade de imagens */}
+                <div className="grid grid-cols-1 sm:grid-cols-4 gap-x-8 gap-y-5 px-10 md:px-[15%] mt-7 pb-7">
                     <section className="relative">
                         <img src={reciclagem} alt="Imagem Reciclagem" />
                         <Button_decoration text="Reciclagem"/>
@@ -68,9 +68,7 @@ export function ParaQuem() {
                         <img src={posto} alt="Imagem Posto de gasolina" />
                         <Button_decoration text="Posto de gasolina"/>
                     </section>
-                    
                 </div>
-                
             </div>
         </div> 
     )
