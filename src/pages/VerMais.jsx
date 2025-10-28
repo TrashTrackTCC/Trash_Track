@@ -1,38 +1,48 @@
+import { useLocation } from "react-router-dom"
 import Header from "../components/Header"
 import Contato from "../components/Contato"
 import { H1, H2, H2_titulo } from '../components/Texto'
-import material from "../assets/material.png"
 
 export function VerMais() {
-    return(
-        <div className="dark:bg-darkpreto min-h-screen  dark:text-white">
-            <div>
-                <Header/>
-            </div>
-            <div className="h-[52px] md:h-[120px]" />
+  const location = useLocation()
+  const produto = location.state
 
-            <div className="flex flex-col md:flex-row md:gap-50 md:items-start px-6 max-w-[1227px] justify-center mx-auto md:mt-25 mt-10 mb-6 md:mb-10">
-                <img src={material} alt="Material Ultilizado" className="h-[471px]"/>
-                <section className="flex flex-col justify-center gap-3 mt-10 dark:bg-darkcinza bg-cinza rounded-[10px] p-10">
-                    <H1>Placa Uno R3 sem Cabo USB</H1>
-                    <H2_titulo>R$ 53,90</H2_titulo>
-                </section>
-            </div>
-            <div>
-                <button onClick={() => { document.getElementById("descricao")?.scrollIntoView({ behavior: "smooth" })}} className="bg-verdenormal md:w-[182px] w-[112px] md:h-[81px] h-[53px] rounded-[10px] text-white justify-center items-center flex cursor-pointer">
-                    <H2>Descrição</H2>
-                </button>
-                <section id="descricao" className="bg-cinza dark:bg-darkcinza w-full px-7 md:px-15 p-10">
-                    <H2>Precisando testar o conceito de uma placa UNO R3 baseada nas placas Arduino em seu projeto? Para um primeiro protótipo este produto cai como uma luva. Por ser um produto compatível, é ótimo para os primeiros protótipos. Posteriormente, para um produto final, é aconselhável utilizar uma BlackBoard UNO R3, que é fabricada no Brasil, possui a qualidade dos produtos da RoboCore e 12 meses de garantia (a placa desta página possui 3 meses de garantia).<br/>
-                    <br/>
-                    Nesta placa, você encontrará as principais funcionalidades das placas Arduino, incluindo 14 pinos digitais de entrada ou saída e 6 entradas analógicas.<br/>
-                    <br/>
-                    Observações: Esta placa não acompanha cabo USB.</H2>
-                </section>
-            </div>
-            <div>
-                <Contato/>
-            </div>
-        </div>
+  if (!produto) {
+    return (
+      <div className="dark:bg-darkpreto min-h-screen flex flex-col items-center justify-center dark:text-white">
+        <Header />
+        <H1>Nenhum produto encontrado 😢</H1>
+      </div>
     )
+  }
+
+  return (
+    <div className="dark:bg-darkpreto min-h-screen dark:text-white">
+      <Header />
+      <div className="h-[52px] md:h-[120px]" />
+
+      <div className="flex flex-col md:flex-row md:gap-50 md:items-start md:px-6 px-3 max-w-[1227px] justify-center mx-auto md:mt-25 mt-5 mb-6 md:mb-10">
+        <img src={produto.imagem} alt={produto.nome} className="h-[471px]" />
+        <section className="flex flex-col justify-center gap-3 mt-10 dark:bg-darkcinza bg-cinza rounded-[10px] p-10">
+          <H1>{produto.nome}</H1>
+          <H2_titulo>{produto.preco}</H2_titulo>
+        </section>
+      </div>
+
+      <div className="flex flex-col">
+        <div className="flex justify-start w-full px-7 md:px-15">
+            <button onClick={() => { document.getElementById("descricao")?.scrollIntoView({ behavior: "smooth" }) }} className="bg-verdenormal md:w-[182px] w-[112px] md:h-[81px] h-[53px] rounded-[10px] text-white flex justify-center items-center cursor-pointer ">
+            <H2>Descrição</H2>
+            </button>
+        </div>
+
+        <section id="descricao" className="bg-cinza dark:bg-darkcinza w-full px-7 md:px-15 p-10">
+            <H2>{produto.descricao}</H2>
+        </section>
+     </div>
+
+
+      <Contato />
+    </div>
+  )
 }

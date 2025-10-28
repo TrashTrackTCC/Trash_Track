@@ -19,12 +19,12 @@ export function ParaQuem() {
             <div className="h-[52px] md:h-[120px]" />
             
             <div>
-                {/* Título */}
+    
                 <section className="text-verdemusgo px-10 md:px-[15%] mt-10 mb-2">
                     <H2_btn>Para quem?</H2_btn>
                 </section>
                 
-                {/* Botões de seleção */}
+  
                 <div className="flex flex-nowrap sm:flex-wrap justify-start sm:justify-center sm:gap-0.5 gap-1 overflow-x-auto sm:overflow-visible px-10 md:px-[15%] py-0">
                     <Link to="/para-quem" className=''><Button_paraquem text="Todos" /></Link>
                     <Link to="/para-quem-conteudo"><Button_paraquem text="Reciclagem" /></Link>
@@ -34,7 +34,7 @@ export function ParaQuem() {
                     <Button_paraquem text="Varejo" />
                 </div>
 
-                {/* Grade de imagens */}
+
                 <div className="grid grid-cols-1 sm:grid-cols-4 gap-x-8 gap-y-5 px-10 md:px-[15%] mt-7 pb-7">
                     <section className="relative">
                         <img src={reciclagem} alt="Imagem Reciclagem" />
