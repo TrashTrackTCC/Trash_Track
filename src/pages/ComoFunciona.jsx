@@ -4,6 +4,7 @@ import { Button_nav, Button_como } from "../components/Button"
 import { H1, H2, H2_btn, H2_titulo, P } from '../components/Texto'
 
 import lixeira from "../assets/lixeira.png"
+import tt from "../assets/tt-removebg-preview.png"
 import identificacao from "../assets/identificacao.png"
 import identificacaodark from "../assets/identificacaodark.png"
 import classificacao from "../assets/classificacao.png"

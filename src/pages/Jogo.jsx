@@ -16,8 +16,10 @@ export function Jogo() {
                     <H2>Em "RecycleX", o jogador assume o papel de um aventureiro corajoso que chega a uma ilha paradisíaca devastada pela poluição. A praia, antes cheia de vida, está agora tomada por lixo e estranhos monstros formados por resíduos, que ameaçam o equilíbrio natural do local.<br/>
     A missão do personagem é limpar a praia, coletando os lixos espalhados e enfrentando as criaturas monstruosas feitas de detritos. Ao se aventurar pela ilha, ele desvenda passagens escondidas e mistérios — mas tudo isso serve apenas como um pretexto para chegar ao verdadeiro desafio: o chefão final, uma criatura gigantesca e perigosa, formada pelos resíduos mais tóxicos acumulados na ilha.<br/>
     "RecycleX" combina ação, aventura e conscientização ambiental, mostrando a importância de combater a poluição e preservar a natureza.</H2>
-
-                    <Button_nav text="Veja o vídeo" />
+                    
+                    <a href="https://youtu.be/jBjmStfm55g" target="_blank" rel="noopener noreferrer">
+                        <Button_nav text="Veja o vídeo"/>
+                    </a>
                 </div>
 
                 <div className="relative">
