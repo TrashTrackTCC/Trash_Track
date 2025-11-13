@@ -24,7 +24,11 @@ export function Jogo() {
 
                 <div className="relative">
                    <img src={jogo} alt="Jogo RecycleX"  /> 
-                   <Button_jogar text="Jogar"/>
+
+                    <a href="https://gd.games/games/13ffbb48-f305-4d3a-afda-7cddf9c767cb" target="_blank" rel="noopener noreferrer">
+                        <Button_jogar text="Jogar"/>
+                    </a>
+                   
                 </div>
                 
             </div>
