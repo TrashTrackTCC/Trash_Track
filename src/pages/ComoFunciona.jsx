@@ -28,7 +28,10 @@ export function ComoFunciona() {
                         <H2_titulo>TrashTrack: Onde a Tecnologia Encontra a Sustentabilidade</H2_titulo>
                         <P>Nosso projeto utiliza tecnologia inovadora para tornar a reciclagem mais inteligente e eficiente. O TrashTrack combina sensores de alta precisão e automação para identificar automaticamente o tipo de resíduo descartado – seja plástico, metal, papel ou vidro.</P>
                         <section className="mt-3">
-                            <Button_nav text="Veja o Vídeo"/>
+
+                            <a href="https://youtube.com/shorts/l_Xt1AW4v6U?si=jUQptqxCYWZWoU36" target="_blank" rel="noopener noreferrer">
+                                <Button_nav text="Veja o Vídeo"/>
+                            </a>
                         </section>
                     </div>
                     <div>
